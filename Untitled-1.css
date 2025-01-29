@@ -1,0 +1,67 @@
+.img{
+    width: 120px; 
+    height: 50px; 
+    text-align: center; 
+
+}
+
+.navigation{
+
+display: flex;
+
+gap: 120px;
+
+}
+
+h1,h2{
+text-align: center;
+font-family: "Raleway", Arial;
+font-weight: 400;
+font-size: 2.5rem;
+color: white;
+}
+.tp{
+    margin: 100px;
+    background: linear-gradient(90deg, rgb(198, 196, 229) 0%, rgba(97,211,235,1) 100%);
+    border-radius: 60px;
+}
+.tp h1,.tp h2{
+color: white;
+}
+/*
+.background{
+
+    background-image: url('./Images/e03716fb182ed3e8d5ad6c425ca9d149.jpg'); 
+  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    padding: 20px; 
+    height: 100vh; 
+}
+    */
+    
+
+    body {
+        background-image: url('./Images/17973908.jpg'); /* Replace 'your-image.jpg' with the image URL or file path */
+        background-size: cover; /* Ensures the image covers the entire screen */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position: center; /* Centers the image */
+      }
+
+      section{
+        background-color: #bbdbf7; /* Light blue color */
+        padding: 20px; /* Adds spacing inside the section */
+        border-radius: 60px; /* Optional: Rounds the corners */
+      /*  text-align: center;  Optional: Centers the text */
+        color: #333; /* Sets text color for better contrast */
+        margin: 40px;
+      }
+
+      .mani {
+        width: 1000px; /* Largeur de l'image */
+        height: auto; /* Maintenir le ratio d'aspect */
+        max-width: 100%; /* Empêcher l'image de dépasser son conteneur */
+        border: 2px solid #333; /* Bordure autour de l'image (optionnel) */
+        border-radius: 10px; /* Coins arrondis (optionnel) */
+      }
